@@ -1,0 +1,10 @@
+{
+  "name": "agent-start",
+  "version": "1.0.0",
+  "description": "End-to-end ticket workflow — plan, review-rules check, PO notes, implementation, PR, notify — each stage gated by an explicit approval.",
+  "author": {
+    "name": "Anboli M",
+    "email": "anboli.m@foodhub.com"
+  },
+  "keywords": ["jira", "workflow", "pull-request", "productivity"]
+}

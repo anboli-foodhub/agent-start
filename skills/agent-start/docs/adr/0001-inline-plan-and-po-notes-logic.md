@@ -1,0 +1,3 @@
+# Reproduce /analyse and /po-notes logic inline instead of invoking them
+
+`/agent-start` needed a Plan (drafted the way an `/analyse`-style skill does) and PO Notes (drafted the way `/po-notes` does), but skills like those typically end in their own terminal "yes → do it now" step — implementing immediately on yes, or posting immediately on yes. Invoking them as sub-skills would fire their approval loop instead of `/agent-start`'s own Approval Gates. We reproduced their planning/drafting logic and templates directly in `/agent-start`'s `SKILL.md` instead, accepting the duplication so this skill can own its full gate sequence.

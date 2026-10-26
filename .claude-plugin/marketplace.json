@@ -1,0 +1,17 @@
+{
+  "name": "anboli-agent-start",
+  "owner": {
+    "name": "Anboli M",
+    "email": "anboli.m@foodhub.com"
+  },
+  "description": "Personal marketplace hosting the agent-start plugin.",
+  "plugins": [
+    {
+      "name": "agent-start",
+      "source": "./",
+      "description": "End-to-end ticket workflow — plan, review-rules check, PO notes, implementation, PR, notify — each stage gated by an explicit approval.",
+      "category": "productivity",
+      "keywords": ["jira", "workflow", "pull-request"]
+    }
+  ]
+}
